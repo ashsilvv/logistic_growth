@@ -1,6 +1,6 @@
 #Script to plot data and model
 
-growth_data <- read.csv("???")
+growth_data <- read.csv("experiment1.csv")
 
 logistic_fun <- function(t) {
   
@@ -10,13 +10,17 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- ??? #
+N0 <- 1044.722
   
-r <- ??? #
+r <- 0.009902
   
-K <- ??? #
+K <- 6e+10
 
-ggplot(aes(???,???), data = growth_data) +
+
+######
+
+
+ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
