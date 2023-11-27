@@ -35,3 +35,5 @@ The population size estimate under exponential growth is considerably larger tha
 
 
 **Question 3** 
+
+See "logistic_exponential_curve_comparison.R" on the main branch to see the code which produced this graph. 
