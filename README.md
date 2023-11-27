@@ -1,6 +1,6 @@
 # R scripts for a reproducible analysis of logistic growth
 
-**Question 1**
+### **Question 1**
 
 I analysed "experiment1.csv". This dataset contained a series of population sizes (N) at given times (t). We wanted to condense all these data down into a single logistic growth function, with only three terms: K (carrying capacity), N0 (starting population size), and r (intrinstgrowth rate). This function should produce a smooth curve which fits to the dataset. Our goal is to find the values of these terms (K, N0, and r) in order to produce this function. 
 In order to do find these three terms, we first divided all the data into two subsets. 
@@ -26,7 +26,7 @@ $r$ = 0.009944
 $K$ = 6e+10
 
 
-**Question 2**
+### **Question 2**
 
 Assuming the population grows exponentially, population size at t=4980 is **3.276982e+24**, where N <- N0 * exp(r * t). 
 Assuming the population follows a logistic growth pattern, population size at t=4980 is **6e+10**, which is the carrying capacity (K), which makes sense given that the time specified is within the population size plateau - after it stops growing and reaches an equilibrium. 
@@ -34,7 +34,7 @@ Assuming the population follows a logistic growth pattern, population size at t=
 The population size estimate under exponential growth is considerably larger than under logistic growth. This makes sense given that no carrying capacity is specified under exponential growth: therefore, there is no maximum population size, and the population size can continue to grow indefinitely. 
 
 
-**Question 3** 
+### **Question 3** 
 
 See "logistic_exponential_curve_comparison.R" on the main branch to see the code which produced this graph. 
 
