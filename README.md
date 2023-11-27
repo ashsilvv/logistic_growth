@@ -2,9 +2,7 @@
 
 **Question 1**
 
-*I used "experiment1.csv".*
-
-In this analysis, we took an existing dataset containing a series of population sizes (N) at given times (t). We wanted to condense all these data down into a single logistic growth function with only three terms: K (carrying capacity), N0 (starting population size), and r (growth rate). This function should produce a smooth curve which fits to the dataset. Our goal is to find the values of these terms (K, N0, and r) in order to produce this function. 
+I analysed "experiment1.csv". This dataset contained a series of population sizes (N) at given times (t). We wanted to condense all these data down into a single logistic growth function, with only three terms: K (carrying capacity), N0 (starting population size), and r (intrinstgrowth rate). This function should produce a smooth curve which fits to the dataset. Our goal is to find the values of these terms (K, N0, and r) in order to produce this function. 
 In order to do find these three terms, we first divided all the data into two subsets. 
 The first data subset will be used to find N0 and r. 
 The second data subset will be used to find K. 
