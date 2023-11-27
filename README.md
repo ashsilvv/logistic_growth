@@ -27,8 +27,10 @@ $K$ = 6e+10
 
 
 **Question 2**
+
 Assuming the population grows exponentially, population size at t=4980 is **3.276982e+24**, where N <- N0 * exp(r * t). 
 Assuming the population follows a logistic growth pattern, population size at t=4980 is **6e+10**, which is the carrying capacity (K), which makes sense given that the time specified is within the population size plateau - after it stops growing and reaches an equilibrium. 
+
 The population size estimate under exponential growth is considerably larger than under logistic growth. This makes sense given that no carrying capacity is specified under exponential growth: therefore, there is no maximum population size, and the population size can continue to grow indefinitely. 
 
 
