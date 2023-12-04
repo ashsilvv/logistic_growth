@@ -38,7 +38,7 @@ The population size estimate under exponential growth is considerably larger tha
 
 Below is the code which produced this graph. I added a limit on the y-axis so you can see the logistic growth curve.
 
-'''
+```
 #reading in the data
 growth_data <- read.csv("experiment1.csv")
 
@@ -78,5 +78,5 @@ ggplot(aes(t, N), data = growth_data) +
        x = "Time (t)", y = "Population size (N)") +
   scale_colour_manual(values = c("Logistic" = "red", "Exponential" = "blue")) + 
   ylim(0, 10e10) # adding a limit on y-axis so you can see the logistic growth curve
-'''
+```
 ![Graph comparing exponential and logistic population growth curve](https://github.com/ashsilvv/logistic_growth/blob/main/exponential%20logistic%20curves.png?raw=true)
