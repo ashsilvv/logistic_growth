@@ -78,3 +78,8 @@ ggplot(aes(t, N), data = growth_data) +
   ylim(0, 10e10) # adding a limit on y-axis so you can see the logistic growth curve
 ```
 ![Graph comparing exponential and logistic population growth curve](https://github.com/ashsilvv/logistic_growth/blob/main/exponential%20logistic%20curves.png?raw=true)
+
+
+Click below to go back to the original "reproducible-research_homework" repository: 
+
+https://github.com/ashsilvv/reproducible-research_homework/blob/f4b83dd22cb0dca7f37489650e34e3858ce15ce9/README.md 
