@@ -36,7 +36,7 @@ The population size estimate under exponential growth is considerably larger tha
 
 ### **Question 3** 
 
-Below is the code which produced this graph. I added a limit on the y-axis so you can see the logistic growth curve.
+Below is the code which produced this graph. I added a limit on the y-axis so you can see the logistic growth curve. The code can also be found as a file in my repository: it is called "logistic_exponential_curve_comparison.R". 
 
 ```
 #reading in the data
