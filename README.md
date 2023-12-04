@@ -82,4 +82,4 @@ ggplot(aes(t, N), data = growth_data) +
 
 Click below to go back to the original "reproducible-research_homework" repository: 
 
-https://github.com/fraxinus-excelsiorr/reproducible-research_homework/blob/f4b83dd22cb0dca7f37489650e34e3858ce15ce9/README.md 
+https://github.com/fraxinus-excelsiorr/reproducible-research_homework
