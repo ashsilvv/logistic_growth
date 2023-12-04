@@ -13,6 +13,7 @@ The *second data subset* should contain values for N and t at any time after the
 See below for a visual representation of where the two data subsets are divided. The first subset is all the data before the first dashed line, where t < 1700. The second subset is all the data after the second dashed line, where t > 3000. 
 
 ![t_moment](https://github.com/ashsilvv/logistic_growth/assets/150149935/352c1b32-0fa9-40e6-b840-575b7efbf7b6)
+![second_t](https://github.com/ashsilvv/logistic_growth/assets/150149935/ec2084a2-7e1d-4ad8-ba21-0852e3925a55)
 
 These are the values of N0, r, and K that I found using the summaries of these two data subsets' linear models. 
 
